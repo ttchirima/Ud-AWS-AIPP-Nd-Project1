@@ -1,4 +1,4 @@
-#Project Instructions
+Project Instructions
 
 Principal Objectives
 1. Correctly identify which pet images are of dogs (even if the breed is misclassified) 
@@ -10,7 +10,7 @@ Principal Objectives
    and determine if an alternative solution would have given a "good enough" result, 
    given the amount of time each of the algorithms takes to run.
 
-#TODO:
+TODO:
 Edit program check_images.py
 The check_images.py is the program file that you will be editing to achieve the four objectives above. 
 This file contains a main() function that outlines how to complete this program through using functions 
@@ -21,7 +21,7 @@ All of the TODOs are listed in check_images.py. You will find further elaboratio
 
 If you feel that you need more guidance, please refer to the files ending with_hints.py. In the workspace, you will find a hint file for each of the tasks.
 
-#Important notes:
+Important notes:
 - The Project Workspace is set up with the programs and files (like pet_images folder) 
   you will need to complete the project.
 - The Python comments that begin with # TODO: in the check_images.py program indicates 
@@ -41,7 +41,7 @@ If you feel that you need more guidance, please refer to the files ending with_h
 - You can use the functions within the program print_functions_for_lab_checks.py to check your code for sections 8. 
   Command Line Arguments through 17. Calculating Results. You will find this program within the Project Workspace.
 
-#Program Outline
+Program Outline
 - Time your program
   - Use Time Module to compute program runtime
 - Get program Inputs from the user
