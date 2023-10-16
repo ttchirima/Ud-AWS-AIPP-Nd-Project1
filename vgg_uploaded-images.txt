@@ -1,0 +1,96 @@
+Command Line Arguments:
+     dir = uploaded_images/ 
+    arch = vgg 
+ dogfile = dognames.txt
+
+Pet Image Label Dictionary has 7 key-value pairs.
+Below are 7 of them:
+ 1 key:                    Cat_01.jpeg  label:                        cat
+ 2 key:                    Dog_02.jpeg  label:                        dog
+ 3 key:                    Hat_01.jpeg  label:                        hat
+ 4 key:                     Hat_01.jpg  label:                        hat
+ 5 key:                     Cat_01.jpg  label:                        cat
+ 6 key:                     Dog_02.jpg  label:                        dog
+ 7 key:                     Dog_01.jpg  label:                        dog
+
+     MATCH:
+
+                   Cat_01.jpeg: 
+Real:                        cat   Classifier:              egyptian cat, cat
+
+                    Cat_01.jpg: 
+Real:                        cat   Classifier:              egyptian cat, cat
+
+ NOT A MATCH:
+
+                   Dog_02.jpeg: 
+Real:                        dog   Classifier:   norwegian elkhound, elkhound
+
+                   Hat_01.jpeg: 
+Real:                        hat   Classifier:                    mortarboard
+
+                    Hat_01.jpg: 
+Real:                        hat   Classifier:                    mortarboard
+
+                    Dog_02.jpg: 
+Real:                        dog   Classifier:   norwegian elkhound, elkhound
+
+                    Dog_01.jpg: 
+Real:                        dog   Classifier:   norwegian elkhound, elkhound
+
+# Total Images 7 # Matches: 2 # NOT Matches: 5
+
+     MATCH:
+
+                   Cat_01.jpeg: 
+Real:                        cat   Classifier:              egyptian cat, cat  
+PetLabelDog: 0  ClassLabelDog: 0
+
+                    Cat_01.jpg: 
+Real:                        cat   Classifier:              egyptian cat, cat  
+PetLabelDog: 0  ClassLabelDog: 0
+
+ NOT A MATCH:
+
+                   Dog_02.jpeg: 
+Real:                        dog   Classifier:   norwegian elkhound, elkhound  
+PetLabelDog: 1  ClassLabelDog: 1
+
+                   Hat_01.jpeg: 
+Real:                        hat   Classifier:                    mortarboard  
+PetLabelDog: 0  ClassLabelDog: 0
+
+                    Hat_01.jpg: 
+Real:                        hat   Classifier:                    mortarboard  
+PetLabelDog: 0  ClassLabelDog: 0
+
+                    Dog_02.jpg: 
+Real:                        dog   Classifier:   norwegian elkhound, elkhound  
+PetLabelDog: 1  ClassLabelDog: 1
+
+                    Dog_01.jpg: 
+Real:                        dog   Classifier:   norwegian elkhound, elkhound  
+PetLabelDog: 1  ClassLabelDog: 1
+
+# Total Images 7 # Matches: 2 # NOT Matches: 5
+
+ ** Statistics from calculates_results_stats() function:
+N Images:  7  N Dog Images:  3  N NotDog Images:  4 
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed: 100.0
+
+ ** Check Statistics - calculated from this function as a check:
+N Images:  7  N Dog Images:  3  N NotDog Images:  4 
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:   0.0
+
+
+*** Results Summary for CNN Model Architecture VGG ***
+N Images            :   7
+N Dog Images        :   3
+N Not-Dog Images    :   4
+ 
+pct_match = 28.57142857142857
+pct_correct_dogs = 100.0
+pct_correct_breed = 100.0
+pct_correct_notdogs = 100.0
+
+** Total Elapsed Runtime: 0:0:5.682
